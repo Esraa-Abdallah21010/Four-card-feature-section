@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+:root{
+    /* ### Primary */
+
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+        /* ### Neutral */
+
+    --Grey-dark: hsl(234, 12%, 34%);
+    --Grey-light: hsl(212, 6%, 44%);
+    --Grey-very-light: hsl(0,0%, 98%);
+    --White: hsl(0, 0%, 100%);
+}
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: var(--Grey-dark);
+    background-color: var(--Grey-very-light);
+}
+.wrapper-page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+p{
+    font-size: 0.8rem;
+}
+.title{
+    max-width: 460px;
+    text-align: center;
+    grid-column: 1/4;
+    justify-self: center;
+    margin-top: 50px;
+}
+.title h1{
+    font-size: 2rem;
+}
+.title .lineOne{
+    font-weight: 200;
+}
+.title p{
+    margin-top: 10px;
+}
+.card{
+    background-color: var(--White);
+    border-top: 4px solid transparent ;
+    border-radius: 5px;
+    min-height: 220px;
+    max-width: 310px;
+    min-width: 200px;
+    padding: 25px;
+    position: relative;
+    box-shadow: 4px 4px 10px 2px hsl(0,0%, 90%);;
+}
+.card h2{
+    font-weight: 600;
+    font-size:1.2rem
+}
+.card p{
+    color: var(--Grey-light);
+}
+.card img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    pointer-events: none;
+}
+#team{
+    border-color: var(--Red);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+#karma{
+    border-color: var(--Orange);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#supervisor{
+    border-color: var(--Cyan);
+    grid-column: 1/2;
+    grid-row: 2/4;
+    align-self: center;
+}
+#calculator{
+    border-color: var(--Blue);
+    grid-column: 3/4;
+    grid-row: 2/4;
+    align-self: center;
+
+}
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+     margin-top: 20px;
+    }
+.attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+@media (max-width:375px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+    .title{
+        margin-top: 40px;
+        max-width: 300px;
+    }
+    .title h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+    .card{
+        max-width: 300px;
+        min-height: 250px;
+    }
+}
