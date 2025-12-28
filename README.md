@@ -18,12 +18,13 @@ This project focuses on clean layout, responsiveness, and maintainable CSS.
 - ✅ Reusable and maintainable CSS  
 - ✅ Pixel-perfect design implementation  
 
-## 📸 Screenshot
-![Screenshot] (Screen Shot Desktop.png)
+## 📸 Screenshots
 
+**Desktop View:**  
+![Desktop](Screen%20Shot%20Desktop.png)
 
-
-(Screen Shot Mobile.png)
+**Mobile View:**  
+![Mobile](Screen%20Shot%20Mobile.png)
 
 ## 🎯 What I Learned
 - Flexbox for layout  
@@ -40,4 +41,4 @@ Solution to the **Four Card Feature Section** challenge from [Frontend Mentor](h
 
 ---
 
-⭐ If you like this project, feel free to give it a star!  
+⭐ If you like this project, feel free to give it a star!
