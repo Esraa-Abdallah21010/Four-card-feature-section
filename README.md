@@ -37,7 +37,7 @@ Solution to the **Four Card Feature Section** challenge from [Frontend Mentor](h
 
 ## 👩‍💻 Author
 **Esraa Abdallah**  
-[GitHub](https://github.com/Esraa-Abdallah21010) | [LinkedIn](www.linkedin.com/in/esraa-abdallah-029945381)  
+[GitHub](https://github.com/Esraa-Abdallah21010) | [LinkedIn](https://www.linkedin.com/in/esraa-abdallah-029945381)  
 
 ---
 
