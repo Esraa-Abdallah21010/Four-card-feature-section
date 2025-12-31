@@ -19,7 +19,8 @@ Each card includes a title, description, and a smooth hover effect — all fully
 ## 🛠️ Technologies Used
 - HTML5  
 - CSS3  
-- Flexbox  
+- Flexbox
+- grid
 - CSS Variables  
 - Responsive Design (Mobile / Desktop)
 
