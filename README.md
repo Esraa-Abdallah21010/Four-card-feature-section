@@ -21,7 +21,7 @@ Each card includes a title, description, and a smooth hover effect — all fully
 - CSS3  
 - Flexbox  
 - CSS Variables  
-- Responsive Design (Mobile / Tablet / Desktop)
+- Responsive Design (Mobile / Desktop)
 
 ---
 
