@@ -42,11 +42,8 @@ Check the live preview here:
 
 ## 📸 Screenshots
 
-**Desktop View:**  
-![Desktop](images/Screen%20Shot%20Desktop.png)
-
-**Mobile View:**  
-![Mobile](images/Screen%20Shot%20Mobile.png)
+**Desktop View:** ![Desktop](Screen%20Shot%20Desktop.png) 
+**Mobile View:** ![Mobile](Screen%20Shot%20Mobile.png)
 
 ---
 
